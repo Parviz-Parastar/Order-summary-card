@@ -57,7 +57,7 @@ I am learning flex and grid display modes to learn which technology is suitable 
 
 - Website - Parviz Parastar
 - Frontend Mentor - [@Parviz-Parastar](https://www.frontendmentor.io/profile/Parviz-Parastar)
-- Twitter - [@@ParastarParviz](https://twitter.com/ParastarParviz)
+- Twitter - [@ParastarParviz](https://twitter.com/ParastarParviz)
 
 
 ## Acknowledgments
