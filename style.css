@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
-:root{
+:root {
     /* Primary */
     --Pale-blue: hsl(225, 100%, 94%);
     --Bright-blue: hsl(245, 75%, 52%);
@@ -18,28 +18,28 @@
     --Dark-blue: hsl(223, 47%, 23%);
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     font-size: 16px;
-    background-color: var(--Pale-blue);
-    background-image: url(images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
+    background: url(images/pattern-background-desktop.svg), #e0e9ff;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
 }
 
-li{
+li {
     list-style: none;
 }
 
-img{
+img {
     max-width: 100%;
     display: block;
 }
 
-.order-card{
+.order-card {
     max-width: 350px;
     display: flex;
     flex-direction: column;
@@ -50,23 +50,23 @@ img{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-.order-card__image{
+.order-card__image {
     border-radius: 15px 15px 0 0;
 }
 
-.order-card__product-info{
+.order-card__product-info {
     text-align: center;
-    padding:  2rem;
+    padding: 2rem;
 }
 
-.order-card__title{
+.order-card__title {
     font-size: 22px;
     font-weight: 900;
     color: var(--Dark-blue);
-    
+
 }
 
-.order-card__text{
+.order-card__text {
     font-size: .8125rem;
     font-weight: 500;
     line-height: 1.2rem;
@@ -74,7 +74,7 @@ img{
     color: var(--Desaturated-blue);
 }
 
-.order-card__sale-info{
+.order-card__sale-info {
     background-color: var(--pale-blue);
     display: flex;
     flex-direction: row;
@@ -85,44 +85,44 @@ img{
     flex-wrap: wrap;
     border-radius: 15px;
     padding: .87rem;
-    
+
 }
 
-.order-card__icon-music{
-   scale: .9;
+.order-card__icon-music {
+    scale: .9;
 }
 
-.order-card__sales-plan-info{
+.order-card__sales-plan-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: .2rem;
 }
 
-.order-card__title-plan{
+.order-card__title-plan {
     font-size: .8rem;
     font-weight: 600;
     color: var(--Dark-blue);
 }
 
-.order-card__price-plan{
+.order-card__price-plan {
     font-size: .8125rem;
     color: var(--Desaturated-blue);
 }
 
-.order-card__change-plan{
+.order-card__change-plan {
     font-size: .75rem;
     font-weight: 900;
     margin-left: 4rem;
 }
 
-.order-card__change-plan:hover{
+.order-card__change-plan:hover {
     text-decoration: none;
     color: hsla(245, 75%, 52%, 0.644);
-    
+
 }
 
-.order-card__payment-btn{
+.order-card__payment-btn {
     width: 100%;
     padding: .7rem;
     border-radius: 10px;
@@ -135,21 +135,19 @@ img{
     box-shadow: 1px 15px 15px 1px #ddd;
 }
 
-.order-card__payment-btn:hover{
+.order-card__payment-btn:hover {
     background-color: hsla(245, 75%, 52%, 0.644);
     cursor: pointer;
     transition: .7s ease;
 }
 
-.order-card__Cancel-Order{
+.order-card__Cancel-Order {
     font-size: 12px;
     font-weight: 900;
     color: var(--Desaturated-blue);
     text-decoration: none;
 }
 
-.order-card__Cancel-Order:hover{
+.order-card__Cancel-Order:hover {
     color: var(--Dark-blue);
 }
-
-
