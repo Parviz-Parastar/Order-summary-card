@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Add solution URL here](https://github.com/Parviz-Parastar/Order-summary-card)
+- Live Site URL: [Add live site URL here](https://parviz-parastar.github.io/Order-summary-card/)
 
 ## My process
 
@@ -55,11 +55,10 @@ I am learning flex and grid display modes to learn which technology is suitable 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - Parviz Parastar
+- Frontend Mentor - [@Parviz-Parastar](https://www.frontendmentor.io/profile/Parviz-Parastar)
+- Twitter - [@@ParastarParviz](https://twitter.com/ParastarParviz)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 Thanks to the frontend mentor site manager and all the friends who help me in modifying the codes.
